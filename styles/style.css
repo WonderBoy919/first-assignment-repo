@@ -20,8 +20,8 @@
 #intro {
     width: 50%;
     margin-left: auto;
-    padding-top: 180px;
-    padding-right: 230px;
+    padding-top: 150px;
+    padding-right: 200px;
     margin-bottom: 60px;
 }
 
@@ -35,6 +35,7 @@
 }
 
 button.primary {
+    margin-top: 28px;
     width: 100px;
     height: 40px;
     border-radius: 5px;
@@ -45,6 +46,8 @@ button.primary {
 }
 
 p.description {
+    padding-right: 40px;
+    margin-top: 20px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -128,4 +131,42 @@ p.describtion {
     line-height: 20px;
     margin-top: 5px;
     color: #737272;
+}
+
+/* gradient part */
+
+section.gradient {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(watch.png);
+    object-fit: contain;
+    background-size: cover;
+    height: 265px;
+    width: 870px;
+    border-radius: 8px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+h2.provad {
+    padding-left: 58px;
+    padding-top: 55px;
+    padding-right: 300px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: aliceblue;
+}
+
+.button {
+    margin-left: 58px;
+    margin-top: 17px;
+    width: 100px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F15B22;
+    border-radius: 5px;
+    border-color: aliceblue;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
