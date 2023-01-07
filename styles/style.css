@@ -6,7 +6,7 @@
 
 /* header image */
 
-.image {
+.banner {
     background-image: url(./banner1.png);
     height: 620px;
     width: 100%;
@@ -50,35 +50,82 @@ p.description {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    color: #444343;
 }
 
-/* first part test */
+/* first part styles */
 
-.first-part{
+.first-part {
     display: flex;
 }
-#person{
+
+#person {
     padding-right: 150px;
     padding-top: 100px;
-    padding-bottom: 200px;
-    /* background-color: rgba(255, 166, 0, 0.929); */
+    padding-bottom: 100px;
 }
-.our-work{
+
+.our-work {
     margin: 280px 1px;
     padding-left: 200px;
-    /* padding-right: 150px; */
-}.our-work h2{
-    font-weight: 700;
-font-size: 45px;
-line-height: 43px;
-padding-right: 120px;
-color: #151414;
 }
-.our-work p{
+
+.our-work h2 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 43px;
+    padding-right: 120px;
+    color: #151414;
+}
+
+.our-work p {
     padding-top: 20px;
     padding-right: 180px;
     font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #444343;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444343;
+}
+
+/* second part styles */
+
+section {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h3.text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #151414;
+}
+
+div.icon-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+p.title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #151414;
+}
+
+p.describtion {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #737272;
 }
