@@ -61,7 +61,6 @@ p.description {
 .first-part {
     display: flex;
 }
-
 #person {
     padding-right: 150px;
     padding-top: 100px;
@@ -169,4 +168,78 @@ h2.provad {
     border-radius: 5px;
     border-color: aliceblue;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* footer styles */
+
+ol{
+    display: flex;
+    gap: 17px;
+}
+ol li {
+    list-style: none;
+}
+.contact {
+    padding-left: 210px;
+    padding-top: 120px;
+}
+.subscribe {
+    padding-top: 120px;
+    padding-right: 210px;
+}
+.connect {
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+margin-bottom: 16px;
+}
+.dscrib {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 24px;
+}
+.mail {
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 16px;
+}
+.number {
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 32px;
+}
+input {
+    width: 225px;
+height: 44px;
+background-color: #151414;
+border-radius: 5px;
+border-color: #ffffffa5;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+margin-top: 31px;
+}
+footer{
+    text-align: left;
+    display: flex;
+    gap: 300px;
+    background: #151414;
+    color: #FFFFFF;
+    width: 100%;
+height: 520px;
+
+}
+button {
+    width: 100px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F15B22;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin-top: 16px;
 }
